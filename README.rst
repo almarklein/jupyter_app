@@ -10,7 +10,8 @@ Installation
 
     $ pip install jupyter_app
 
-Additionally, you need Firefox installed, or download NW.js.
+Additionally, you need Firefox installed,
+or download `NW.js <https://nwjs.io/>`_ to your downloads folder.
 
 
 Usage
@@ -19,6 +20,14 @@ Usage
 .. code-block:: none
 
     $ jupyter_app
+
+
+Select a specific app runtime (see
+`docs <http://webruntime.readthedocs.io/en/latest/#webruntime.launch>`_):
+    
+.. code-block:: none
+
+    $ jupyter_app --webruntime=nw-app
 
 
 How it works
