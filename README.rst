@@ -38,3 +38,9 @@ of launching a brower tab to connect to it, it launches a browser window
 that is made to look like a desktop app (including icon, process name, etc.).
 When the window is closed, the server shuts down. This uses the
 `webruntime <https://github.com/flexxui/webruntime/>`_ module.
+
+
+Why?
+----
+
+Because it was easy to do with ``webruntime``. I only later found out that Jupyter already has a [jupyter_app](https://github.com/jupyterlab/jupyterlab_app).
