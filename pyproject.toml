@@ -1,0 +1,16 @@
+[tool.flit.metadata]
+module="jupyter_app"
+author="Almar Klein"
+author-email="almar.klein@gmail.com"
+home-page="https://github.com/almarklein/jupyter_app"
+requires=["jupyterlab", "webruntime", "dialite"]
+requires-python=">=3.4"
+description-file="README.rst"
+classifiers=["Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.flit.scripts]
+jupyter_app = "jupyter_app:main"
