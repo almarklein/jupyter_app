@@ -43,4 +43,4 @@ When the window is closed, the server shuts down. This uses the
 Why?
 ----
 
-Because it was easy to do with ``webruntime``. I only later found out that Jupyter already has a [jupyter_app](https://github.com/jupyterlab/jupyterlab_app).
+Because it was easy to do with ``webruntime``. I only later found out that Jupyter already has a `jupyter_app <https://github.com/jupyterlab/jupyterlab_app>`_.
